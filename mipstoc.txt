@@ -1,0 +1,18 @@
+int, a, b, c, d, e;
+int[] X, Y;
+
+int* x = &X;
+int* y = &Y;
+
+int four_a = a * 4;
+four_a = x + four_a;
+
+int four_b = b * 4;
+four_b = y + four_b;
+
+a = X[four_a];
+plus_four = a + 4;
+
+a = X[plus_four];
+a = a + x;
+Y[four_b] = a;
